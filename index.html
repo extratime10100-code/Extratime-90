@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Extra Time 90 | ساعات فاخرة</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Outfit:wght@300;400;500;600;700&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- LANDING -->
+  <section id="landing">
+    <div class="watermark-logo"><img src="90.jpg" alt="" /></div>
+    <div class="particles" id="particles"></div>
+    <div class="landing-content">
+      <div class="brand-eyebrow">SWISS LUXURY TIMEPIECES</div>
+      <h1 class="landing-title">
+        <span class="title-line">EXTRA</span>
+        <span class="title-line accent">TIME</span>
+        <span class="title-line">90</span>
+      </h1>
+      <p class="landing-sub">الوقت الإضافي لأصحاب الطموح</p>
+      <button class="enter-btn" id="enterBtn">
+        <span class="btn-ring"></span>
+        <span class="btn-ring ring2"></span>
+        <span class="btn-inner">+90</span>
+      </button>
+      <p class="btn-hint">اضغط لتدخل العالم</p>
+    </div>
+    <div class="morph-overlay" id="morphOverlay"></div>
+  </section>
+
+  <!-- MAIN STORE -->
+  <main id="mainStore" class="hidden">
+    <nav class="navbar" id="navbar">
+      <div class="nav-logo">+90</div>
+      <div class="nav-brand">EXTRA TIME</div>
+      <div class="nav-tagline">NO time without us</div>
+    </nav>
+
+    <section class="hero-welcome">
+
+      <!-- النص — العمود الأيمن -->
+      <div class="hero-text-col">
+        <div class="hero-eyebrow">مرحباً بك في عالم مختلف</div>
+        <h2 class="hero-headline">
+          أهلاً بيك في عالم إكسترا تايم..<br />
+          <span class="hero-gold">الوقت بتاعنا بيبدأ لما وقت غيرنا يخلص!</span>
+        </h2>
+        <div class="hero-divider"></div>
+        <p class="hero-sub">حيث تبدأ الأسطورة بعد الدقيقة ٩٠</p>
+        <button class="scroll-to-collection-btn" id="scrollToCollectionBtn">↓ انزل للكولكشن ↓</button>
+      </div>
+
+      <!-- فاصل عمودي -->
+      <div class="hero-vline"></div>
+
+      <!-- العد التنازلي — العمود الأيسر -->
+      <div class="hero-cd-col" id="countdownSection">
+        <div class="countdown-eyebrow">COMING SOON</div>
+        <div class="countdown-date-label">٧ يوليو ٢٠٢٦</div>
+        <div class="countdown-grid" id="countdownGrid">
+          <div class="countdown-unit">
+            <div class="countdown-num" id="cdDays">00</div>
+            <div class="countdown-label">يوم</div>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-unit">
+            <div class="countdown-num" id="cdHours">00</div>
+            <div class="countdown-label">ساعة</div>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-unit">
+            <div class="countdown-num" id="cdMins">00</div>
+            <div class="countdown-label">دقيقة</div>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-unit">
+            <div class="countdown-num" id="cdSecs">00</div>
+            <div class="countdown-label">ثانية</div>
+          </div>
+        </div>
+        <div class="countdown-bar-wrap">
+          <div class="countdown-bar" id="countdownBar"></div>
+        </div>
+        <p class="countdown-note">استعد… الوقت الإضافي بيبدأ قريباً 🕐</p>
+      </div>
+
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+        <span>اسكرول لأسفل</span>
+      </div>
+
+    </section>
+
+    <section class="story-section s1" data-reveal>
+      <div class="story-image">
+        <div class="img-frame">
+          <img src="OIP.jpg" alt="Luxury Chronograph" />
+          <div class="img-badge">Since +90</div>
+        </div>
+      </div>
+      <div class="story-text">
+        <div class="section-eyebrow">THE STORY</div>
+        <h3 class="story-heading">روح لا تعرف الدقيقة ٩٠</h3>
+        <p class="story-body">
+          ساعاتنا مش مجرد آلة تحسبلك الوقت،<br />دي بتعبر عن شغفك وروحك اللي
+          مبتهداش لحد دقيقة ٩٠ وأكتر...
+        </p>
+        <p class="story-body secondary">
+          اخترنا كل ساعة من كولكشن إكسترا تايم عشان تقولك: في وقت إضافي دايماً
+          لو عندك الإرادة تلعبه.
+        </p>
+      </div>
+    </section>
+    <section class="story-section s2 reversed" data-reveal>
+      <div class="story-text">
+        <div class="section-eyebrow">CRAFTSMANSHIP</div>
+        <h3 class="story-heading">كل حاجة اخترناها بمزاج</h3>
+        <p class="story-body">الزوق في الاختار هو اساس شغلنا</p>
+        <div class="craft-tags">
+          <span class="tag">Swiss Automatic</span
+          ><span class="tag">Sapphire Crystal</span
+          ><span class="tag">100m Water Resist</span>
+        </div>
+      </div>
+      <div class="story-image">
+        <div class="img-frame">
+          <img src="R.jpg" alt="Watch Mechanics" />
+          <div class="img-badge right">Handcrafted</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="catalog">
+      <div class="catalog-header" data-reveal>
+        <div class="section-eyebrow center">THE COLLECTION</div>
+        <h2 class="catalog-title">كولكشن إكسترا تايم</h2>
+        <p class="catalog-sub">ساعات فاخرة، كل واحدة بحكاية</p>
+      </div>
+      <div class="products-grid" id="productsGrid"></div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-logo">+90</div>
+      <p class="footer-brand">EXTRA TIME | SWISS LUXURY TIMEPIECES</p>
+      <p class="footer-copy">© 2025 Extra Time 90. كل الحقوق محفوظة.</p>
+      <p class="footer-copy">© Dr.Robot. كل الحقوق محفوظة.</p>
+      <div class="footer-contact">
+        <a
+          href="https://www.instagram.com/extra_time__90?igsh=MWJmdjRhbjBybjhpMg=="
+          class="contact-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="contact-icon">📸</span
+          ><span class="contact-text">تابعنا على إنستجرام</span
+          ><span class="contact-arrow">→</span></a
+        >
+      </div>
+    </footer>
+  </main>
+
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div class="modal-icon"></div>
+      <h3 class="modal-title">الطلب موقوف حالياً</h3>
+      <p class="modal-text">
+        الموقع لا يقبل الطلبات في الوقت الحالي.      
+         <br />نعتذر عن الإزعاج، سيتم فتح الطلبات قريباً.
+      </p>
+      <div class="modal-watch-name" id="modalWatchName"></div>
+    </div>
+  </div>
+
+ <script src="app.js"></script>
+</body>
+</html>
